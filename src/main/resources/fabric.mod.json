@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "dupez",
+  "version": "${version}",
+  "name": "DupeZ",
+  "description": "A simple item duplication mod for Fabric",
+  "authors": [
+    "EA399"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.dupez.DupeZ"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": "${fabricLoader}",
+    "minecraft": "${minecraft}",
+    "java": ">=21"
+  }
+}
